@@ -1,0 +1,28 @@
+
+.mytab {
+	margin: 0;
+	padding:0;
+	clear: both;;
+}
+.mytab li{
+	float:left;
+	list-style: none;
+	margin-right: 1px;
+}
+.mytab li a {
+	background: #ccc;
+	color: #444;
+	padding: 5px 10px;
+	text-decoration: none;
+	float: left;
+}
+.mytab li.active a {
+	background: #ddd;
+}
+.easytab-content {
+	clear: both;
+	width: 100%;
+	background: #ddd;
+	padding:10px; 
+	float: left;
+}

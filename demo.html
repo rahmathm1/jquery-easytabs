@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="easy-tabs.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="easy-tabs.jquery.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('.mytab').easyTabs();
+	});
+	</script>
+</head>
+<body>
+	<ul class="mytab">
+		<li class="easytab-tab active"><a href="#tab1">Sale</a></li>
+		<li class="easytab-tab"><a href="#tab2">Rent</a></li>
+	</ul>
+	<div id="tab1" class="easytab-content" >
+		Content of tab 1
+	</div>
+	<div id="tab2" class="easytab-content" style="display: none;">
+		Content of tab 2
+	</div>
+
+</body>
+</html>
