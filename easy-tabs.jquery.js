@@ -1,3 +1,8 @@
+/* 
+Author : Rahmathullah M
+last Edited : 17 April, 2014
+*/
+
 $.fn.easyTabs = function() {
     $(this).find('li').bind('click',function() {
 		$('.easytab-tab').removeClass('active');
